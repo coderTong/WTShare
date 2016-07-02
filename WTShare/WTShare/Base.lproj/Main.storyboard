@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,7 +16,65 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDy-HV-VYP">
+                                <rect key="frame" x="285" y="40" width="30" height="30"/>
+                                <state key="normal" title="微博"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fnb-46-6k7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo2-00-tf4">
+                                <rect key="frame" x="263" y="95" width="75" height="30"/>
+                                <state key="normal" title="微信朋友圈"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IvV-Va-23J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ke7-0f-IPj">
+                                <rect key="frame" x="270" y="150" width="60" height="30"/>
+                                <state key="normal" title="微信好友"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9g-QV-ddj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg1-Pl-TcX">
+                                <rect key="frame" x="270" y="205" width="60" height="30"/>
+                                <state key="normal" title="微信收藏"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="70w-uL-I46"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itv-zC-ycp">
+                                <rect key="frame" x="274" y="260" width="53" height="30"/>
+                                <state key="normal" title="QQ好友"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NlY-rE-DI6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7h-BG-CDT">
+                                <rect key="frame" x="274" y="315" width="53" height="30"/>
+                                <state key="normal" title="QQ空间"/>
+                                <connections>
+                                    <action selector="shareTo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8h0-Za-G9P"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vo2-00-tf4" firstAttribute="top" secondItem="cDy-HV-VYP" secondAttribute="bottom" constant="25" id="3aD-rO-de4"/>
+                            <constraint firstItem="cg1-Pl-TcX" firstAttribute="top" secondItem="ke7-0f-IPj" secondAttribute="bottom" constant="25" id="6Ko-Yt-k2c"/>
+                            <constraint firstItem="D7h-BG-CDT" firstAttribute="centerX" secondItem="itv-zC-ycp" secondAttribute="centerX" id="FX9-aA-JvR"/>
+                            <constraint firstItem="cg1-Pl-TcX" firstAttribute="centerX" secondItem="ke7-0f-IPj" secondAttribute="centerX" id="Hxv-Yz-Rzx"/>
+                            <constraint firstItem="ke7-0f-IPj" firstAttribute="centerX" secondItem="Vo2-00-tf4" secondAttribute="centerX" id="Iyg-ho-ctI"/>
+                            <constraint firstItem="ke7-0f-IPj" firstAttribute="top" secondItem="Vo2-00-tf4" secondAttribute="bottom" constant="25" id="dvt-yN-eca"/>
+                            <constraint firstItem="D7h-BG-CDT" firstAttribute="top" secondItem="itv-zC-ycp" secondAttribute="bottom" constant="25" id="fe9-Qi-MWn"/>
+                            <constraint firstItem="itv-zC-ycp" firstAttribute="centerX" secondItem="cg1-Pl-TcX" secondAttribute="centerX" id="gVU-1O-Srp"/>
+                            <constraint firstItem="cDy-HV-VYP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mMp-zR-JSU"/>
+                            <constraint firstItem="itv-zC-ycp" firstAttribute="top" secondItem="cg1-Pl-TcX" secondAttribute="bottom" constant="25" id="nLZ-D8-p98"/>
+                            <constraint firstItem="Vo2-00-tf4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ooc-e0-mxp"/>
+                            <constraint firstItem="cDy-HV-VYP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="owY-2y-vok"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
