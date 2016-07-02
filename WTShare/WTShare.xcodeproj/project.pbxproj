@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B131931D27AA10009C1685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B131921D27AA10009C1685 /* main.m */; };
+		04B131961D27AA10009C1685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B131951D27AA10009C1685 /* AppDelegate.m */; };
+		04B131991D27AA10009C1685 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B131981D27AA10009C1685 /* ViewController.m */; };
+		04B1319C1D27AA10009C1685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1319A1D27AA10009C1685 /* Main.storyboard */; };
+		04B1319E1D27AA10009C1685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B1319D1D27AA10009C1685 /* Assets.xcassets */; };
+		04B131A11D27AA10009C1685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1319F1D27AA10009C1685 /* LaunchScreen.storyboard */; };
+		04B131AC1D27AA10009C1685 /* WTShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B131AB1D27AA10009C1685 /* WTShareTests.m */; };
+		04B131B71D27AA10009C1685 /* WTShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B131B61D27AA10009C1685 /* WTShareUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B131A81D27AA10009C1685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B131861D27AA10009C1685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B1318D1D27AA10009C1685;
+			remoteInfo = WTShare;
+		};
+		04B131B31D27AA10009C1685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B131861D27AA10009C1685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B1318D1D27AA10009C1685;
+			remoteInfo = WTShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B1318E1D27AA10009C1685 /* WTShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B131921D27AA10009C1685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B131941D27AA10009C1685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B131951D27AA10009C1685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B131971D27AA10009C1685 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B131981D27AA10009C1685 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B1319B1D27AA10009C1685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B1319D1D27AA10009C1685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B131A01D27AA10009C1685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B131A21D27AA10009C1685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B131A71D27AA10009C1685 /* WTShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B131AB1D27AA10009C1685 /* WTShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTShareTests.m; sourceTree = "<group>"; };
+		04B131AD1D27AA10009C1685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B131B21D27AA10009C1685 /* WTShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B131B61D27AA10009C1685 /* WTShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTShareUITests.m; sourceTree = "<group>"; };
+		04B131B81D27AA10009C1685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B1318B1D27AA10009C1685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131A41D27AA10009C1685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131AF1D27AA10009C1685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B131851D27AA10009C1685 = {
+			isa = PBXGroup;
+			children = (
+				04B131901D27AA10009C1685 /* WTShare */,
+				04B131AA1D27AA10009C1685 /* WTShareTests */,
+				04B131B51D27AA10009C1685 /* WTShareUITests */,
+				04B1318F1D27AA10009C1685 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B1318F1D27AA10009C1685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B1318E1D27AA10009C1685 /* WTShare.app */,
+				04B131A71D27AA10009C1685 /* WTShareTests.xctest */,
+				04B131B21D27AA10009C1685 /* WTShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B131901D27AA10009C1685 /* WTShare */ = {
+			isa = PBXGroup;
+			children = (
+				04B131941D27AA10009C1685 /* AppDelegate.h */,
+				04B131951D27AA10009C1685 /* AppDelegate.m */,
+				04B131971D27AA10009C1685 /* ViewController.h */,
+				04B131981D27AA10009C1685 /* ViewController.m */,
+				04B1319A1D27AA10009C1685 /* Main.storyboard */,
+				04B1319D1D27AA10009C1685 /* Assets.xcassets */,
+				04B1319F1D27AA10009C1685 /* LaunchScreen.storyboard */,
+				04B131A21D27AA10009C1685 /* Info.plist */,
+				04B131911D27AA10009C1685 /* Supporting Files */,
+			);
+			path = WTShare;
+			sourceTree = "<group>";
+		};
+		04B131911D27AA10009C1685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B131921D27AA10009C1685 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B131AA1D27AA10009C1685 /* WTShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B131AB1D27AA10009C1685 /* WTShareTests.m */,
+				04B131AD1D27AA10009C1685 /* Info.plist */,
+			);
+			path = WTShareTests;
+			sourceTree = "<group>";
+		};
+		04B131B51D27AA10009C1685 /* WTShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B131B61D27AA10009C1685 /* WTShareUITests.m */,
+				04B131B81D27AA10009C1685 /* Info.plist */,
+			);
+			path = WTShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B1318D1D27AA10009C1685 /* WTShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B131BB1D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShare" */;
+			buildPhases = (
+				04B1318A1D27AA10009C1685 /* Sources */,
+				04B1318B1D27AA10009C1685 /* Frameworks */,
+				04B1318C1D27AA10009C1685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTShare;
+			productName = WTShare;
+			productReference = 04B1318E1D27AA10009C1685 /* WTShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B131A61D27AA10009C1685 /* WTShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B131BE1D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShareTests" */;
+			buildPhases = (
+				04B131A31D27AA10009C1685 /* Sources */,
+				04B131A41D27AA10009C1685 /* Frameworks */,
+				04B131A51D27AA10009C1685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B131A91D27AA10009C1685 /* PBXTargetDependency */,
+			);
+			name = WTShareTests;
+			productName = WTShareTests;
+			productReference = 04B131A71D27AA10009C1685 /* WTShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B131B11D27AA10009C1685 /* WTShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B131C11D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShareUITests" */;
+			buildPhases = (
+				04B131AE1D27AA10009C1685 /* Sources */,
+				04B131AF1D27AA10009C1685 /* Frameworks */,
+				04B131B01D27AA10009C1685 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B131B41D27AA10009C1685 /* PBXTargetDependency */,
+			);
+			name = WTShareUITests;
+			productName = WTShareUITests;
+			productReference = 04B131B21D27AA10009C1685 /* WTShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B131861D27AA10009C1685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wutong;
+				TargetAttributes = {
+					04B1318D1D27AA10009C1685 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04B131A61D27AA10009C1685 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B1318D1D27AA10009C1685;
+					};
+					04B131B11D27AA10009C1685 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04B1318D1D27AA10009C1685;
+					};
+				};
+			};
+			buildConfigurationList = 04B131891D27AA10009C1685 /* Build configuration list for PBXProject "WTShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B131851D27AA10009C1685;
+			productRefGroup = 04B1318F1D27AA10009C1685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B1318D1D27AA10009C1685 /* WTShare */,
+				04B131A61D27AA10009C1685 /* WTShareTests */,
+				04B131B11D27AA10009C1685 /* WTShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B1318C1D27AA10009C1685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B131A11D27AA10009C1685 /* LaunchScreen.storyboard in Resources */,
+				04B1319E1D27AA10009C1685 /* Assets.xcassets in Resources */,
+				04B1319C1D27AA10009C1685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131A51D27AA10009C1685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131B01D27AA10009C1685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B1318A1D27AA10009C1685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B131991D27AA10009C1685 /* ViewController.m in Sources */,
+				04B131961D27AA10009C1685 /* AppDelegate.m in Sources */,
+				04B131931D27AA10009C1685 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131A31D27AA10009C1685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B131AC1D27AA10009C1685 /* WTShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B131AE1D27AA10009C1685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B131B71D27AA10009C1685 /* WTShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B131A91D27AA10009C1685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B1318D1D27AA10009C1685 /* WTShare */;
+			targetProxy = 04B131A81D27AA10009C1685 /* PBXContainerItemProxy */;
+		};
+		04B131B41D27AA10009C1685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B1318D1D27AA10009C1685 /* WTShare */;
+			targetProxy = 04B131B31D27AA10009C1685 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B1319A1D27AA10009C1685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B1319B1D27AA10009C1685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B1319F1D27AA10009C1685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B131A01D27AA10009C1685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B131B91D27AA10009C1685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B131BA1D27AA10009C1685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B131BC1D27AA10009C1685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B131BD1D27AA10009C1685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B131BF1D27AA10009C1685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTShare.app/WTShare";
+			};
+			name = Debug;
+		};
+		04B131C01D27AA10009C1685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTShare.app/WTShare";
+			};
+			name = Release;
+		};
+		04B131C21D27AA10009C1685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTShare;
+			};
+			name = Debug;
+		};
+		04B131C31D27AA10009C1685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.wutong.WTShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B131891D27AA10009C1685 /* Build configuration list for PBXProject "WTShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B131B91D27AA10009C1685 /* Debug */,
+				04B131BA1D27AA10009C1685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B131BB1D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B131BC1D27AA10009C1685 /* Debug */,
+				04B131BD1D27AA10009C1685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B131BE1D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B131BF1D27AA10009C1685 /* Debug */,
+				04B131C01D27AA10009C1685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04B131C11D27AA10009C1685 /* Build configuration list for PBXNativeTarget "WTShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B131C21D27AA10009C1685 /* Debug */,
+				04B131C31D27AA10009C1685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B131861D27AA10009C1685 /* Project object */;
+}
